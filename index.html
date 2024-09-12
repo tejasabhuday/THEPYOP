@@ -12,6 +12,18 @@
   </head>
   <body>
     <div id="root"></div>
+    <script type="module">
+      import { Analytics } from '@vercel/analytics/react';
+
+      export default function RootLayout({ children }) {
+        return (
+          <>
+            {children}
+            <Analytics />
+          </>
+        );
+      }
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
