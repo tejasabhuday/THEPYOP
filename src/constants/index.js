@@ -177,7 +177,7 @@ export const collabApps = [
     icon: slack,
     width: 38,
     height: 50,
-    link: "https://www.instagram.com/pyop.in",
+    link: "https://www.instagram.com/pyop.app?igsh=MXM5N25zYTh0czlrcw%3D%3D&utm_source=qr",
   },
   {
     id: "4",
